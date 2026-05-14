@@ -12,8 +12,6 @@ The project demonstrates:
 - Basic electronic circuit design
 - Integration of hardware and software
 
-Based on the final project report from Universitas Pendidikan Indonesia (UPI). :contentReference[oaicite:0]{index=0}
-
 ---
 
 ## Features
@@ -40,8 +38,6 @@ Based on the final project report from Universitas Pendidikan Indonesia (UPI). :
 | Jumper Wires | Circuit connections |
 | USB/Powerbank | Power supply |
 
-Component details are described in the project report. :contentReference[oaicite:1]{index=1}
-
 ---
 
 ## System Workflow
@@ -54,8 +50,6 @@ Component details are described in the project report. :contentReference[oaicite
 4. If Bluetooth disconnects or goes out of range:
    - LED = ON
    - Buzzer = ON
-
-The logic flowchart and block diagram are documented in the report. :contentReference[oaicite:2]{index=2}
 
 ---
 
