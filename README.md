@@ -91,5 +91,3 @@ The logic flowchart and block diagram are documented in the report. :contentRefe
 - Arduino IDE
 - CH340 Driver (if required)
 - Bluetooth Terminal App (Android)
-
-Software requirements are listed in the report. :contentReference[oaicite:3]{index=3}
