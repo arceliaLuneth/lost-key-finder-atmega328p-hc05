@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3">
+  <diagram name="Page-1" id="B89DCOSFaVkWkP8Igk1y">
+    <mxGraphModel dx="1111" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IpIHh-wqhTgxIcryLDOe-9" edge="1" parent="1" source="IpIHh-wqhTgxIcryLDOe-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IpIHh-wqhTgxIcryLDOe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IpIHh-wqhTgxIcryLDOe-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Smartphone&lt;div&gt;(Bluetooth ON)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IpIHh-wqhTgxIcryLDOe-8" edge="1" parent="1" source="IpIHh-wqhTgxIcryLDOe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IpIHh-wqhTgxIcryLDOe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IpIHh-wqhTgxIcryLDOe-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;HC - 05 Module&lt;/div&gt;&lt;div&gt;(Bluetooth RxTx)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IpIHh-wqhTgxIcryLDOe-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Arduino UNO&lt;div&gt;(Controller)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="IpIHh-wqhTgxIcryLDOe-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LED&lt;div&gt;Indikator&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="IpIHh-wqhTgxIcryLDOe-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Buzzer Alarm" vertex="1">
+          <mxGeometry height="60" width="120" x="485" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="IpIHh-wqhTgxIcryLDOe-6" edge="1" parent="1" source="IpIHh-wqhTgxIcryLDOe-3" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="IpIHh-wqhTgxIcryLDOe-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IpIHh-wqhTgxIcryLDOe-7" edge="1" parent="1" source="IpIHh-wqhTgxIcryLDOe-3" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="IpIHh-wqhTgxIcryLDOe-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="565" y="410" as="sourcePoint" />
+            <mxPoint x="530" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IpIHh-wqhTgxIcryLDOe-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Koneksi Bluetooth" vertex="1">
+          <mxGeometry height="30" width="120" x="420" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IpIHh-wqhTgxIcryLDOe-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Komunikasi Serial" vertex="1">
+          <mxGeometry height="30" width="120" x="425" y="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

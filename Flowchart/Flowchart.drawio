@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.6">
+  <diagram name="Page-1" id="ZYWsmN5M2NORpLUDK9mN">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-7" edge="1" parent="1" source="3l-9E8RzFF0fBW0m58bu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="3l-9E8RzFF0fBW0m58bu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="START" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-8" edge="1" parent="1" source="3l-9E8RzFF0fBW0m58bu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="3l-9E8RzFF0fBW0m58bu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Inisialisasi Sistem&lt;div&gt;- Serial 9600&lt;/div&gt;&lt;div&gt;- LED = OFF, Buzzer = OFF&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="175" x="338" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cek koneksi Bluetooth" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-12" edge="1" parent="1" source="3l-9E8RzFF0fBW0m58bu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="3l-9E8RzFF0fBW0m58bu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Buetooth Terputus&lt;div&gt;LED = ON&lt;/div&gt;&lt;div&gt;Buzzer = ON&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="485" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-11" edge="1" parent="1" source="3l-9E8RzFF0fBW0m58bu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="3l-9E8RzFF0fBW0m58bu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Bluetooth Terhubung&lt;div&gt;LED = OFF&lt;/div&gt;&lt;div&gt;Buzzer = OFF&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="245" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-13" edge="1" parent="1" source="3l-9E8RzFF0fBW0m58bu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kembali ke cek BT" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-9" edge="1" parent="1" source="3l-9E8RzFF0fBW0m58bu-3" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="3l-9E8RzFF0fBW0m58bu-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="300" as="sourcePoint" />
+            <mxPoint x="400" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-10" edge="1" parent="1" source="3l-9E8RzFF0fBW0m58bu-3" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="3l-9E8RzFF0fBW0m58bu-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="370" as="sourcePoint" />
+            <mxPoint x="430" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Loop" vertex="1">
+          <mxGeometry height="30" width="60" x="395.5" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YA?" vertex="1">
+          <mxGeometry height="30" width="60" x="278" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="3l-9E8RzFF0fBW0m58bu-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TIDAK?" vertex="1">
+          <mxGeometry height="30" width="60" x="513" y="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
