@@ -86,4 +86,4 @@ The project demonstrates:
 - CH340 Driver (if required)
 - Bluetooth Terminal App (Android)
 
-Special thanks to Gilar Pranakusuma, Hizkia Anugrah Rajaguk Guk for teamwork
+Special thanks to Gilar Pranakusuma and Hizkia Anugrah Rajaguk Guk for teamwork
