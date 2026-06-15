@@ -85,5 +85,3 @@ The project demonstrates:
 - Arduino IDE
 - CH340 Driver (if required)
 - Bluetooth Terminal App (Android)
-
-Special thanks to Gilar Pranakusuma and Hizkia Anugrah Rajaguk Guk for teamwork
